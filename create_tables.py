@@ -7,9 +7,9 @@ import argparse
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-n', type=str, default='warehouse.cims.nyu.edu', help="hostname of the MySQL server")
-    parser.add_argument('-d', type=str, default='mfo254_drecco', help="name of the database")
-    parser.add_argument('-u', type=str, default='mfo254', help="id of the database admin")
-    parser.add_argument('-p', type=str, default='db_psswd', help="passwd of the database admin")
+    parser.add_argument('-d', type=str, default='pg1899_drecco', help="name of the database")
+    parser.add_argument('-u', type=str, default='pg1899', help="id of the database admin")
+    parser.add_argument('-p', type=str, default='5twg8c3y', help="passwd of the database admin")
 
     args = parser.parse_args()
 
